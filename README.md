@@ -1,2 +1,3 @@
 # cn-frontend-development-advanced
-Project files for Frontend Development (Advanced) [前端开发（进阶）](https://cn.udacity.com/course/front-end-web-developer-nanodegree--nd001-cn-advanced) Nanodegree program.
+
+如果你发现任何翻译错误，或有任何建议，欢迎提交 issue 告诉我们！
