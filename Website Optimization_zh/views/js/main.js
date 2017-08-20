@@ -519,16 +519,16 @@ window.addEventListener('scroll', updatePositions);
 
 // 当页面加载时生成披萨滑窗
 document.addEventListener('DOMContentLoaded', function() {
-  var cols = 8;
-  var s = 256;
+  var pizzasPerRow = 8;
+  var rowHeight = 256;
   for (var i = 0; i < 200; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
     elem.style.width = "73.333px";
-    elem.basicLeft = (i % cols) * s;
-    elem.style.top = (Math.floor(i / cols) * s) + 'px';
+    elem.basicLeft = (i % pizzasPerRow) * rowHeight;
+    elem.style.top = (Math.floor(i / pizzasPerRow) * rowHeight) + 'px';
     document.querySelector("#movingPizzas1").appendChild(elem);
   }
   updatePositions();
