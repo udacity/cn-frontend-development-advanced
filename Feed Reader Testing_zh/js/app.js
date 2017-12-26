@@ -7,17 +7,17 @@
 // 所有的名字和链接都是真实可用的
 var allFeeds = [
     {
-        name: 'Udacity Blog',
+        name: '优达学城 Blog',
         url: 'http://blog.udacity.com/feed'
     }, {
-        name: 'CSS Tricks',
-        url: 'http://feeds.feedburner.com/CssTricks'
+        name: '腾讯CDC',
+        url: 'http://cdc.tencent.com/feed/'
     }, {
-        name: 'HTML5 Rocks',
-        url: 'http://feeds.feedburner.com/html5rocks'
+        name: 'Matrix67(数学爱好者)',
+        url: 'http://www.matrix67.com/blog/feed'
     }, {
-        name: 'Linear Digressions',
-        url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+        name: 'TechCrunch中国',
+        url: 'http://techcrunch.cn/feed/'
     }
 ];
 
